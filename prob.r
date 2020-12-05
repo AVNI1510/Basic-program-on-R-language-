@@ -1,0 +1,6 @@
+library(prob)
+x<-c(1,2,3,4,5,6)
+s<-urnsamples(x , size=4 , replace=TRUE , ordered=TRUE)
+probspace(s)
+t<-urnsamples(x , size=4 , replace=FALSE , ordered=TRUE)
+probspace(t)
